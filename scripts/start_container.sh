@@ -1,8 +1,6 @@
 #!/bin/bash
 set -e
 
-chmod +x scripts/start_container.sh
-
 # Pull the Docker image from Docker Hub
 sudo docker push dhanrajgatti13docker/simple-python-flask-app
 
